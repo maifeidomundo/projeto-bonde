@@ -25,7 +25,7 @@ public class ProjectileSpaw : MonoBehaviour
 
     IEnumerator Spawn()
     {
-        while (true)
+        if (Input.GetButton("Fire1"))
         {
             yield return new WaitForSeconds(waitTime);
             for (int i = 0; i < directions.Length; i++)
