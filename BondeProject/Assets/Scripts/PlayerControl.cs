@@ -6,7 +6,46 @@ public class PlayerControl : MonoBehaviour
 {
     public GameObject prefab;
     public GameObject spawnPoint;
-    public float velocity = 10f;
+    public float velocity = 100f;
+
+
+
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Enemies"))
+        {
+            KillPlayer();
+        }
+
+    }
+
+
+    void KillPlayer()
+    {
+        
+
+        Destroy(gameObject);
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Start is called before the first frame update
     void Start()
