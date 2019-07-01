@@ -16,19 +16,20 @@ public class PlayerControl : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemies"))
         {
-            KillPlayer();
+            Destroy(gameObject);
+            
+        
         }
 
     }
 
 
-    void KillPlayer()
-    {
+ 
         
 
-        Destroy(gameObject);
         
-    }
+        
+   
 
 
 

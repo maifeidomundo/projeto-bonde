@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3607952541333540332}
   - component: {fileID: 3607952541333540333}
   - component: {fileID: 7630563037007148751}
+  - component: {fileID: 3671901701546328425}
   m_Layer: 0
   m_Name: estojodocrime2
   m_TagString: Untagged
@@ -121,3 +122,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3671901701546328425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3607952541333540334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f0b1816df908942a6be212ce52b288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 2
