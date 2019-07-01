@@ -16,7 +16,10 @@ public class PlayerControl : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemies"))
         {
-            Destroy(gameObject);
+          
+         AudioManager.instance.PlaySoundFail(gameObject);
+         Destroy(gameObject);
+            
             
         
         }
