@@ -920,6 +920,26 @@ PrefabInstance:
       propertyPath: velocity
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891082, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 098709d0706b8424cb5425a7e50d0870, type: 2}
+    - target: {fileID: 3653010589134891081, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891080, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: SpeedFactor
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891080, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: force
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c57deaebef797c439ca7f8f6f72041f, type: 3}
 --- !u!1001 &4020707088699165717

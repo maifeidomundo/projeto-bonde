@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-public static AudioManager instance;
-public AudioSFX audioSFX;
+    public static AudioManager instance;
+    public AudioSFX audioSFX;
 
-
+    void Start() {
+        if (instance == null) {
+            instance = this;
+        }
+    }
 
 
 
