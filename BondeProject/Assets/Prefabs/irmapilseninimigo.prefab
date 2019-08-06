@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5434833047588953208}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pos1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5434833048052879142}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pos2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5434833049163665243}
   - component: {fileID: 5434833049163665242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: irmapilseninimigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,6 +122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: irmapilsen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170681973984431267, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5170681973984431264, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
         type: 3}
@@ -177,6 +182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170681974993459315, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8401620ffd4e9404e9b21ac0bf17a9ae, type: 3}

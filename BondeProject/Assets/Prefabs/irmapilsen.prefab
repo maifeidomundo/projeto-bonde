@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 5170681974993459215}
   - component: {fileID: 5170681974993459214}
   - component: {fileID: 5170681974993459313}
-  - component: {fileID: 5170681974993459312}
   m_Layer: 0
   m_Name: irmadapilsen
   m_TagString: Untagged
@@ -142,24 +141,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 51.42857, y: 51.42857}
   m_EdgeRadius: 0
---- !u!114 &5170681974993459312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1804393852054480151, guid: b892898b4605b1b4fb0ac2310ac0500f,
-    type: 3}
-  m_PrefabInstance: {fileID: 5170681975173856300}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5170681974993459315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84094fde9935b534b9e7f2d76094aaf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  waitTime: 0.5
-  speed: 2
 --- !u!1001 &5170681975173856300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -227,5 +208,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b892898b4605b1b4fb0ac2310ac0500f, type: 3}
