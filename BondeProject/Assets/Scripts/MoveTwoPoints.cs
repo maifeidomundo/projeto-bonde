@@ -21,6 +21,8 @@ public class MoveTwoPoints : MonoBehaviour
     {
         while (true)
         {
+           if (gameObject.obj != null){
+           
             if (obj.transform.localPosition == pos1.localPosition)
             {
                 nextPos = pos2.localPosition;
@@ -35,7 +37,7 @@ public class MoveTwoPoints : MonoBehaviour
             yield return null;
         }
     }
-
+    }
     void OnDrawGizmos()
     {
         Gizmos.DrawLine(pos1.position, pos2.position);
