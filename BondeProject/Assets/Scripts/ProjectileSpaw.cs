@@ -84,7 +84,7 @@ public class ProjectileSpaw : MonoBehaviour
 
         while (true) {
 
-
+            
 
             yield return new WaitForSeconds(waitTime);
 
