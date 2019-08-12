@@ -18,4 +18,10 @@ public class AudioManager : MonoBehaviour
     public void PlaySoundFail(GameObject obj) {
         AudioSource.PlayClipAtPoint(audioSFX.fail, obj.transform.position);
     }
+   
+    public void PlaySoundLevelcomplete(GameObject obj) {
+        AudioSource.PlayClipAtPoint(audioSFX.levelcomplete, obj.transform.position);
+    }
+   
+   
 }

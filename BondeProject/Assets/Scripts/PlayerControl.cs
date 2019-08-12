@@ -24,6 +24,20 @@ public class PlayerControl : MonoBehaviour
         
         }
 
+    if (other.gameObject.CompareTag("Gift"))
+        {
+          
+         AudioManager.instance.PlaySoundLevelcomplete(gameObject);
+         Destroy(gameObject);
+            
+            
+        
+        }
+    
+    
+    
+    
+    
     }
 
 
