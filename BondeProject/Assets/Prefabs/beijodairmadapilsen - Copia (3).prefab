@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4103131892741803368}
   - component: {fileID: 1781528677111797067}
   - component: {fileID: 1411737335241733428}
+  - component: {fileID: 3092268126161053184}
   m_Layer: 8
   m_Name: beijodairmadapilsen - Copia (3)
   m_TagString: Untagged
@@ -171,3 +172,16 @@ PolygonCollider2D:
       - {x: 0.315, y: -1.005}
       - {x: 0.53499997, y: -0.73499995}
       - {x: 0.635, y: -0.575}
+--- !u!114 &3092268126161053184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245231480469333992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f0b1816df908942a6be212ce52b288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.5
