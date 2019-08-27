@@ -338,6 +338,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &348829187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8764369489380338067, guid: 522eb489427acc248ab2aa82ed5234d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 5949655381760029189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &354612108
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +595,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 212.18506, y: -17.092615}
+  m_Offset: {x: 267.8945, y: -17.092615}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -600,7 +606,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 502.4005, y: 3.5576286}
+  m_Size: {x: 613.8194, y: 3.5576286}
   m_EdgeRadius: 0
 --- !u!1 &533295831 stripped
 GameObject:
@@ -649,6 +655,37 @@ Transform:
   - {fileID: 1273332192}
   m_Father: {fileID: 1161788399}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1051378437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1051378438}
+  m_Layer: 0
+  m_Name: kraria
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1051378438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051378437}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 549.9324, y: -3.5323935, z: 6.6875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 348829187}
+  m_Father: {fileID: 1161788399}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1057404791
 GameObject:
@@ -805,10 +842,10 @@ Transform:
   - {fileID: 960459761}
   - {fileID: 410592966}
   - {fileID: 1136120966}
-  - {fileID: 1555595804}
   - {fileID: 1954340768}
+  - {fileID: 1051378438}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273332191
 GameObject:
@@ -1144,36 +1181,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1555595803
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1555595804}
-  m_Layer: 0
-  m_Name: kraria
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1555595804
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555595803}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 332.34866, y: 17.8008, z: -0.90625}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1161788399}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1741814445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,7 +1351,7 @@ GameObject:
   - component: {fileID: 1954340770}
   - component: {fileID: 1954340769}
   m_Layer: 10
-  m_Name: Carteirinha_Escola-1.png
+  m_Name: passe
   m_TagString: Gift
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1358,11 +1365,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954340767}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 455.83258, y: -6.9365897, z: 0.15625}
-  m_LocalScale: {x: 2.1413598, y: 2.25212, z: 1.846}
+  m_LocalPosition: {x: 562.19, y: -9.57, z: 0.15625}
+  m_LocalScale: {x: 4.2184787, y: 3.9659834, z: 1.846}
   m_Children: []
   m_Father: {fileID: 1161788399}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1954340769
 BoxCollider2D:
@@ -1381,7 +1388,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8, y: 8}
+    oldSize: {x: 4, y: 4}
     newSize: {x: 8, y: 8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1427,7 +1434,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: 5a3baa71808722f43b2bbdd3fe6d86e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06106c1811564cd4eba575c04c994fb0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1680,7 +1687,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1051378438}
     m_Modifications:
     - target: {fileID: 8764369489380338065, guid: 522eb489427acc248ab2aa82ed5234d5,
         type: 3}
@@ -1690,17 +1697,17 @@ PrefabInstance:
     - target: {fileID: 8764369489380338067, guid: 522eb489427acc248ab2aa82ed5234d5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.312571
+      value: -536.31726
       objectReference: {fileID: 0}
     - target: {fileID: 8764369489380338067, guid: 522eb489427acc248ab2aa82ed5234d5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.28411388
+      value: -0.03830993
       objectReference: {fileID: 0}
     - target: {fileID: 8764369489380338067, guid: 522eb489427acc248ab2aa82ed5234d5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.9619184
+      value: -5.5693316
       objectReference: {fileID: 0}
     - target: {fileID: 8764369489380338067, guid: 522eb489427acc248ab2aa82ed5234d5,
         type: 3}
@@ -1725,7 +1732,7 @@ PrefabInstance:
     - target: {fileID: 8764369489380338067, guid: 522eb489427acc248ab2aa82ed5234d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8764369489380338067, guid: 522eb489427acc248ab2aa82ed5234d5,
         type: 3}

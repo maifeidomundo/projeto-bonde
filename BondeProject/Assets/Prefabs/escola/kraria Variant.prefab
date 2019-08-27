@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3112030848187922015, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
         type: 3}
       propertyPath: m_Name
-      value: kraria
+      value: kraria Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3112030848187922013, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
         type: 3}
@@ -78,5 +78,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: eed54c146e163294a8e0051a15e0fe72,
         type: 3}
+    - target: {fileID: 3112030848187922012, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.03470707
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112030848187922012, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 9.181393
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112030848187922012, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -2.468265
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112030848187922012, guid: 8401620ffd4e9404e9b21ac0bf17a9ae,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3.811799
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8401620ffd4e9404e9b21ac0bf17a9ae, type: 3}
