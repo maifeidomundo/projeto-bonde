@@ -16,28 +16,24 @@ public class PlayerControl : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemies"))
         {
-          
-         AudioManager.instance.PlaySoundFail(gameObject);
-         Destroy(gameObject);
-            
-            
-        
+            Camera.main.GetComponentInChildren<AudioSource>().mute = true;
+            AudioManager.instance.PlaySoundFail(gameObject);
+            Destroy(gameObject);
+
+
+
         }
 
-    if (other.gameObject.CompareTag("Gift"))
+        if (other.gameObject.CompareTag("Gift"))
         {
-          
-         AudioManager.instance.PlaySoundLevelcomplete(gameObject);
-         Destroy(gameObject);
-            
-            
-        
+            Camera.main.GetComponentInChildren<AudioSource>().mute = true;
+            AudioManager.instance.PlaySoundLevelcomplete(gameObject);
+            Destroy(gameObject);
+            LevelManager.instance.ShowLevelCompletePanel();
+
+
         }
-    
-    
-    
-    
-    
+
     }
 
 
