@@ -2631,6 +2631,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiComponents:
+    gameOverPanel:
+      panel: {fileID: 1042351640}
     LCpanel:
       levelcompletepanel: {fileID: 1612839281}
 --- !u!114 &1087087555

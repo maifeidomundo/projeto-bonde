@@ -19,7 +19,7 @@ public class PlayerControl : MonoBehaviour
             Camera.main.GetComponentInChildren<AudioSource>().mute = true;
             AudioManager.instance.PlaySoundFail(gameObject);
             Destroy(gameObject);
-
+            LevelManager.instance.ShowGameOverPanel(); 
 
 
         }

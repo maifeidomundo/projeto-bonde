@@ -21,4 +21,15 @@ public class LevelManager : MonoBehaviour
         uiComponents.LCpanel.levelcompletepanel.SetActive(true);
 
     }
+
+    public void ShowGameOverPanel() {
+        uiComponents.gameOverPanel.panel.SetActive(true);
+    }
+
+
+
+
+
+
+
 }

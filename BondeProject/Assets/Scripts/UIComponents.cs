@@ -24,6 +24,26 @@ public class UIComponents
   
     }
  
+     [Serializable]
+        public class GameOverPanel {
+
+        
+        [Header("Other")]
+        public GameObject panel;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    public GameOverPanel gameOverPanel;
     public panel LCpanel;
 
 }
