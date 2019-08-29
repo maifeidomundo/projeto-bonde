@@ -12,8 +12,12 @@ public class MoveByRigidBody : MonoBehaviour
 
     private Rigidbody2D Rb;
 
+     private Animator anim;
+
     void Start()
     {
+        
+        anim = GetComponent<Animator>();
         Rb = GetComponent<Rigidbody2D>();
     }
 
@@ -22,6 +26,15 @@ public class MoveByRigidBody : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         Rb.velocity = new Vector2(horizontalInput * SpeedFactor, Rb.velocity.y);
+
+        if (horizontalInput != 0)
+            {
+                // play Bounce but start at a quarter of the way though
+                anim.SetBool("Move", true);
+            }
+            else{
+                anim.SetBool("Move", false);
+            }
 
         if (Input.GetButtonDown("Jump"))
         {
