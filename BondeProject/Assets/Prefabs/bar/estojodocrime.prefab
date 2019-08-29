@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 7630563037007148751}
   - component: {fileID: 3671901701546328425}
   - component: {fileID: 1388651523595559489}
+  - component: {fileID: 5894606474086017626}
   m_Layer: 4
-  m_Name: estojodocrime2
+  m_Name: estojodocrime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,3 +133,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0.013363659, y: 0}
   m_Size: {x: 1.2705408, y: 2.5}
   m_Direction: 0
+--- !u!114 &5894606474086017626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3607952541333540334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15066375ea1e32a42b8a84bd005164d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3607952541333540334}

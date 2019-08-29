@@ -387,7 +387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &105095416
 Transform:
   m_ObjectHideFlags: 0
@@ -663,7 +663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &243522179
 Transform:
   m_ObjectHideFlags: 0
@@ -2466,8 +2466,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 03bf8e1cae7314141a5b484698a9df2a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3467,7 +3467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1511887370
 Transform:
   m_ObjectHideFlags: 0
@@ -3896,15 +3896,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.8392157, g: 0.6792453, b: 0.14417945, a: 0.25882354}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4634d58f783fb494daa3e7b7e7c9caf3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4944,6 +4944,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8401620ffd4e9404e9b21ac0bf17a9ae, type: 3}
+--- !u!1 &2108781664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3653010589134891085, guid: 2c57deaebef797c439ca7f8f6f72041f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3653010588685441796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2146845411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5101,36 +5107,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3653010589134891085, guid: 2c57deaebef797c439ca7f8f6f72041f,
-        type: 3}
-      propertyPath: m_Name
-      value: "Mois\xE9s"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3653010589134891082, guid: 2c57deaebef797c439ca7f8f6f72041f,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 098709d0706b8424cb5425a7e50d0870, type: 2}
-    - target: {fileID: 3653010589134891083, guid: 2c57deaebef797c439ca7f8f6f72041f,
-        type: 3}
-      propertyPath: velocity
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3653010589134891080, guid: 2c57deaebef797c439ca7f8f6f72041f,
-        type: 3}
-      propertyPath: SpeedFactor
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 3653010589134891080, guid: 2c57deaebef797c439ca7f8f6f72041f,
-        type: 3}
-      propertyPath: force
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3653010589134891081, guid: 2c57deaebef797c439ca7f8f6f72041f,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 3653010589134891087, guid: 2c57deaebef797c439ca7f8f6f72041f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5185,6 +5161,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891085, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: m_Name
+      value: "Mois\xE9s"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891083, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: velocity
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891083, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 2108781664}
+    - target: {fileID: 3653010589134891082, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 098709d0706b8424cb5425a7e50d0870, type: 2}
+    - target: {fileID: 3653010589134891081, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891080, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: SpeedFactor
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653010589134891080, guid: 2c57deaebef797c439ca7f8f6f72041f,
+        type: 3}
+      propertyPath: force
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c57deaebef797c439ca7f8f6f72041f, type: 3}
