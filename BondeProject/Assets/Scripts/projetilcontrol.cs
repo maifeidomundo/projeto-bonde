@@ -16,6 +16,11 @@ public class projetilcontrol : MonoBehaviour
 
 
         }
+ if (other.gameObject.layer == LayerMask.NameToLayer("Coletaveis"))
+        {
+            Destroy(gameObject);
 
+
+        }
     }
     }

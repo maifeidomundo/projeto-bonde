@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3607952541333540332}
   - component: {fileID: 7630563037007148751}
   - component: {fileID: 3671901701546328425}
-  - component: {fileID: 1388651523595559489}
   - component: {fileID: 5894606474086017626}
+  - component: {fileID: 4727128405005930372}
   m_Layer: 4
   m_Name: estojodocrime
   m_TagString: Untagged
@@ -98,7 +98,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -116,23 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f0b1816df908942a6be212ce52b288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3
---- !u!70 &1388651523595559489
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3607952541333540334}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.013363659, y: 0}
-  m_Size: {x: 1.2705408, y: 2.5}
-  m_Direction: 0
+  delay: 1
 --- !u!114 &5894606474086017626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,3 +130,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3607952541333540334}
+--- !u!60 &4727128405005930372
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3607952541333540334}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.5, y: 2.5}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.1750001, y: 0.65000004}
+      - {x: -1.25, y: 0.4}
+      - {x: -1.25, y: -0.625}
+      - {x: -1.225, y: -0.65000004}
+      - {x: 1.25, y: -0.65000004}
+      - {x: 1.25, y: 0.5}
+      - {x: 1.1, y: 0.65000004}
