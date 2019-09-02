@@ -1996,7 +1996,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9bd022d21ee62344ebc09faea7876592, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 780cd514187322948962b8d685021a71, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.29
   m_Pitch: 1
@@ -2517,8 +2517,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSFX:
-    fail: {fileID: 8300000, guid: 22889a05022e94f46a3e8880bd95ccca, type: 3}
-    levelcomplete: {fileID: 8300000, guid: f6264408f95d9814f8785ff66177d18c, type: 3}
+    fail: {fileID: 8300000, guid: e6a6407412e47bd41b6627a87728cb95, type: 3}
+    levelcomplete: {fileID: 8300000, guid: 7526b7c42082d5b4da75594936379dc0, type: 3}
 --- !u!4 &1087087553
 Transform:
   m_ObjectHideFlags: 0
