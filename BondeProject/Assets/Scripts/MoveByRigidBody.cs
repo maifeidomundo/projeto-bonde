@@ -23,6 +23,7 @@ public class MoveByRigidBody : MonoBehaviour
 
     void Update()
     {
+/*
         float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         Rb.velocity = new Vector2(horizontalInput * SpeedFactor, Rb.velocity.y);
@@ -35,7 +36,7 @@ public class MoveByRigidBody : MonoBehaviour
             else{
                 anim.SetBool("Move", false);
             }
-
+*/
         if (Input.GetButtonDown("Jump"))
         {
             if (Rb.velocity.y == 0f)
@@ -44,4 +45,20 @@ public class MoveByRigidBody : MonoBehaviour
             }
         }
     }
+
+    public void LeftMoveStart() {
+        Rb.velocity = new Vector2(-SpeedFactor, Rb.velocity.y);
+        anim.SetBool("Move", true);
+    }
+
+    public void MoveStop() {
+        Rb.velocity = new Vector2(0f, Rb.velocity.y);
+        anim.SetBool("Move", false);
+    }
+
+    public void RightMoveStart() {
+        Rb.velocity = new Vector2(SpeedFactor, Rb.velocity.y);
+        anim.SetBool("Move", true);
+    }
+
 }
