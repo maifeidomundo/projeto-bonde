@@ -36,45 +36,19 @@ public class PlayerControl : MonoBehaviour
 
     }
 
-
- 
-        
-
-        
-        
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            GameObject projectile = Instantiate(prefab, spawnPoint.transform.position, Quaternion.identity);
+            //GameObject projectile = Instantiate(prefab, spawnPoint.transform.position, Quaternion.identity);
             //projectile.transform.SetParent(parent.transform);
-            projectile.GetComponent<Rigidbody2D>().velocity = Vector2.right * velocity;
+            //projectile.GetComponent<Rigidbody2D>().velocity = Vector2.right * velocity;
         }
+    }
+
+    public void Atirar() {
+        GameObject projectile = Instantiate(prefab, spawnPoint.transform.position, Quaternion.identity);
+        projectile.GetComponent<Rigidbody2D>().velocity = Vector2.right * velocity;       
     }
 }

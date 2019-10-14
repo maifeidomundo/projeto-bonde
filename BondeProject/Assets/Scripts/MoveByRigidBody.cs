@@ -46,6 +46,13 @@ public class MoveByRigidBody : MonoBehaviour
         }
     }
 
+    public void Jump() {
+        if (Rb.velocity.y == 0f)
+        {
+            Rb.AddForce(Vector3.up * force, ForceMode2D.Impulse);
+        }        
+    }
+
     public void LeftMoveStart() {
         Rb.velocity = new Vector2(-SpeedFactor, Rb.velocity.y);
         anim.SetBool("Move", true);
