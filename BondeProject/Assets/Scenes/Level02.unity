@@ -307,7 +307,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cf7d66f981a1ec648ad04a94bb1da922, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 074d042aee6065745938d3f3628bf9c1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.29
   m_Pitch: 1
@@ -1770,7 +1770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2549,7 +2549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2608,15 +2608,15 @@ RectTransform:
   m_GameObject: {fileID: 896544598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9998449, y: 0.9998449, z: 0.9998449}
+  m_LocalScale: {x: 1.0001009, y: 1.0001009, z: 1.0001009}
   m_Children: []
   m_Father: {fileID: 1717345804}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417.00003, y: -288.00003}
-  m_SizeDelta: {x: 235.8, y: 267.3}
+  m_AnchoredPosition: {x: -577.13, y: -261.3}
+  m_SizeDelta: {x: 125.7, y: 197.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &896544600
 MonoBehaviour:
@@ -2721,14 +2721,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1696d02bf6309eb44acd66446f5f2099, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b6e867eb20295a4d923859f1348235f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3243,15 +3243,15 @@ RectTransform:
   m_GameObject: {fileID: 1106902897}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0001009, y: 1.0001009, z: 1.0001009}
+  m_LocalScale: {x: 0.9998449, y: 0.9998449, z: 0.9998449}
   m_Children: []
   m_Father: {fileID: 1717345804}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -182.00002, y: -285}
-  m_SizeDelta: {x: 235.8, y: 267.3}
+  m_AnchoredPosition: {x: -449.01, y: -261.29}
+  m_SizeDelta: {x: 130.5, y: 197.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1106902899
 MonoBehaviour:
@@ -3356,14 +3356,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c2147bfcfa470b74a854ae37abe987ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d5a33fe856fa904b907ea362c971e5e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -6410,6 +6410,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Artur
       objectReference: {fileID: 0}
+    - target: {fileID: 8352342039417710679, guid: 2a86c623472f03e4f83efb97a2f5cc22,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 8645878605910434572, guid: a1a818902a0b978438135f98b483ae9b,
+        type: 3}
     - target: {fileID: 8352342041040695161, guid: 2a86c623472f03e4f83efb97a2f5cc22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6465,12 +6471,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8352342039417710679, guid: 2a86c623472f03e4f83efb97a2f5cc22,
+    - target: {fileID: 8352342039417710672, guid: 2a86c623472f03e4f83efb97a2f5cc22,
         type: 3}
-      propertyPath: prefab
+      propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 8645878605910434572, guid: a1a818902a0b978438135f98b483ae9b,
-        type: 3}
+      objectReference: {fileID: 9100000, guid: 3536687807fbcd14180789a43af92887, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a86c623472f03e4f83efb97a2f5cc22, type: 3}
 --- !u!1 &8352342040800068082 stripped

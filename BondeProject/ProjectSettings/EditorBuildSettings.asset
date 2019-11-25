@@ -50,8 +50,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Caldas4.unity
     guid: 1e63725139e5f494f903b1d43f5e6f67
+  - enabled: 1
+    path: Assets/Scenes/Caldas01.unity
+    guid: 92b5b166a8a4fc546a9c9acb6b519adf
+  - enabled: 1
+    path: Assets/Scenes/Caldas02.unity
+    guid: 4726e5e88d74008479f7104b645f28f5
+  - enabled: 1
+    path: Assets/Scenes/Caldas03.unity
+    guid: 918ac5fcc5983004999fd4a033a96f7c
+  - enabled: 1
+    path: Assets/Scenes/Caldas04.unity
+    guid: 4708ff025127f3443ad5428cc7ec4cfd
   - enabled: 0
-    path: Assets/Scenes/Intro.unity
+    path: 
     guid: 705038501d98923458316cee26217f03
   - enabled: 1
     path: Assets/Scenes/Credits.unity

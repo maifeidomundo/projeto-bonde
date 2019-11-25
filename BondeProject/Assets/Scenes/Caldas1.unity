@@ -222,15 +222,15 @@ RectTransform:
   m_GameObject: {fileID: 46089399}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9998449, y: 0.9998449, z: 0.9998449}
+  m_LocalScale: {x: 1.0001009, y: 1.0001009, z: 1.0001009}
   m_Children: []
   m_Father: {fileID: 639126229}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417.00003, y: -288.00003}
-  m_SizeDelta: {x: 235.8, y: 267.3}
+  m_AnchoredPosition: {x: -577.13, y: -261.3}
+  m_SizeDelta: {x: 125.7, y: 197.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46089401
 MonoBehaviour:
@@ -335,14 +335,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1696d02bf6309eb44acd66446f5f2099, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b6e867eb20295a4d923859f1348235f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1448,15 +1448,15 @@ RectTransform:
   m_GameObject: {fileID: 468152886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0001009, y: 1.0001009, z: 1.0001009}
+  m_LocalScale: {x: 0.9998449, y: 0.9998449, z: 0.9998449}
   m_Children: []
   m_Father: {fileID: 639126229}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -182.00002, y: -285}
-  m_SizeDelta: {x: 235.8, y: 267.3}
+  m_AnchoredPosition: {x: -449.01, y: -261.29}
+  m_SizeDelta: {x: 130.5, y: 197.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &468152888
 MonoBehaviour:
@@ -1561,14 +1561,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c2147bfcfa470b74a854ae37abe987ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d5a33fe856fa904b907ea362c971e5e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2922,7 +2922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3802,7 +3802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5009,7 +5009,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4e71bb99714843641bdc82c7a75dab55, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 94ba51fdb18a1944fb42da5d5658b1df, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.29
   m_Pitch: 1
@@ -5228,7 +5228,7 @@ PrefabInstance:
     - target: {fileID: 2108781669, guid: 845617fd73f7da84bb163824e9f2a9f8, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e8b77f8c17edfda46b950873fb9277a0,
+      objectReference: {fileID: 21300000, guid: 824c328370350af4999134a5b109ef44,
         type: 3}
     - target: {fileID: 2108781670, guid: 845617fd73f7da84bb163824e9f2a9f8, type: 3}
       propertyPath: m_Controller
